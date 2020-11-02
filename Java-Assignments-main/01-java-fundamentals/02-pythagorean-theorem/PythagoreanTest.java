@@ -1,6 +1,7 @@
 public class PythagoreanTest {
-    public static void main(int[] args) {
-        Pythagorean id = new Pythagorean();
-        id.calculateHypothenuse();
+    public static void main(String[] args) {
+        Pythagorean py = new Pythagorean();
+        double hypothenuse = py.calculateHypothenuse(8,12);
+        System.out.println("The Hypothenuse is: " + hypothenuse);
     }
 }
